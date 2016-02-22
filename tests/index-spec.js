@@ -2,8 +2,9 @@
 
 var expect = require('expect.js');
 var $ = require('jquery');
+var Easing = require('../index');
 
-require('../index');
+$.extend($.easing, Easing);
 
 /*globals describe,it*/
 

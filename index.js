@@ -1,7 +1,6 @@
 /**
- * Description: index.js
- * Author: crossjs <liwenfu@crossjs.com>
- * Date: 2014-12-22 11:20:19
+ * @module Easing
+ * @author crossjs <liwenfu@crossjs.com>
  */
 
 'use strict';
@@ -195,10 +194,4 @@ var Easing = {
     }
 };
 
-// 可以通过 require 获取
 module.exports = Easing;
-
-
-// 也可以直接通过 jQuery.easing 来使用
-var $ = require('jquery');
-$.extend($.easing, Easing);
